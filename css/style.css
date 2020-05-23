@@ -9,6 +9,19 @@
 # General
 --------------------------------------------------------------*/
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 body {
   background: #fff;
   color: #2f3138;
