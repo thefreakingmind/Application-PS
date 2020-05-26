@@ -482,10 +482,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/in.jpg) top center;
+  background: url(../img/in.png) top center;
   background-size: cover;
-  overflow: hidden;
-  position: relative;
+  overflow: show;
+  position: static;
 }
 
 #intro:before {
