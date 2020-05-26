@@ -484,13 +484,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 100vh;
   background: url(../img/in.png) top center;
   background-size: cover;
-  overflow: show;
-  position: static;
+  overflow: hidden;
+  position: relative;
 }
 
 #intro:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(255, 255, 300, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -522,7 +522,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 {
-  color: #fff;
+  color: #0000A0;
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: 600;
@@ -534,7 +534,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro p {
-  color: #ebebeb;
+  color: #0000A0;
   font-weight: 700;
   font-size: 20px;
 }
